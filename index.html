@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Certificação</title>
+    <link rel="icon" href="arquivos/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1 id="title">Pesquisa de Academia</h1>
+        <p id="description">Obrigado por dedicar alguns minutos para responder nossa pesquisa sua opinião nos ajuda a melhorar nossos serviços.</p>
+    </header>
+
+    <form id="survey-form" action="#" method="post">
+
+        <label id="name-label">Nome</label>
+        <input required id="name" name="name" type="text" placeholder="Digite seu nome"><br>
+
+        <label id="email-label">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="Digite seu email" required><br>
+
+
+        <label id="number-label">Idade (opcional)</label>
+        <input id="number" name="idade" type="number" placeholder="Idade" min="1" max="100">
+    
+    <p>Qual é o principal objetivo na academia?</p>
+        
+        <select id="dropdown">
+            <option>Selecione um objetivo</option>
+            <option>Emagrecer</option>
+            <option>Saúde e qualidade de vida</option>
+            <option>Melhorar o condicionamento físico</option>
+            <option>Outro</option>
+        </select>
+    
+    <p>Você treina regulamente?</p>
+
+    <input type="radio" name="frequencia" value="sim" checked>Sim
+    <input type="radio" name="frequencia" value="asvzs" >As Vezes
+    <input type="radio" name="frequencia" value="nao">Não
+
+    
+    <p>Qual é o seu treino favorito?</p>
+        
+        <select id="drop-down">
+            <option>Selecione um treino</option>
+            <option>Musculação</option>
+            <option>Cardio</option>
+            <option>Funcional</option>
+            <option>CrossFit</option>
+            <option>Outro</option>
+        </select>
+    
+
+
+        <p>Quais serviços você gostaria que a academia oferecesse? (Marque todas as opções desejadas)</p>
+
+        <input type="checkbox" value="danca">Aulas de Dança
+        <input type="checkbox" value="luta">Aulas de Luta
+        <input type="checkbox" value="personal">Personal Trainer
+        <input type="checkbox" value="pool">Piscina
+        <input type="checkbox" value="sauna">Sauna
+        <input type="checkbox" value="estacionamento">Estacionamento
+        <input type="checkbox" value="lanchonete">Lanchonete
+        
+
+        <p>Algum comentário ou sugestão?</p>
+
+        <textarea id="comentário" name="comentário" placeholder="Digite sua sugestão aqui..."></textarea>
+        <br> 
+        <button type="submit" id="submit">Enviar</button> 
+    </form>
+<br><br>
+<footer> © 2026 Lucas Oliveira | Projeto desenvolvido durante os estudos de HTML.</footer>
+
+
+
+</body>
+</html>
