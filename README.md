@@ -12,6 +12,8 @@ O formulário coleta informações dos usuários sobre seus objetivos, frequênc
 
 - HTML5
 
+🔗 **Deploy:** https://luc07o.github.io/academy-survey-form-html/
+
 ## 📋 Funcionalidades
 
 - Campo para nome
